@@ -42,7 +42,6 @@ def calcular_precio_promedio(productos):
     total = sum(producto["precio"] for producto in productos)
     return total / len(productos)
 
-# Ejemplo de uso:
 
 productos = [
         {"nombre": "Laptop", "precio": 1200, "categoria": "tecnología"},
